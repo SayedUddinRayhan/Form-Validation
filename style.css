@@ -1,3 +1,31 @@
 body {
     background-color: rgb(175, 228, 230);
 }
+
+#box1 {
+    width: 250px;
+    height: 300px;
+    background-color: azure;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    border: 2px solid rgb(202, 202, 248);
+    border-radius: 10px;
+}
+
+.form {
+    margin: 10px;
+    font-size: 20px;
+    font-family: Geneva;
+
+}
+
+.form input {
+    width: 220px;
+    height: 23px;
+}
+
+#submit {
+    margin-left: 10px;
+    height: 25px;
+}
