@@ -45,10 +45,18 @@ body {
     color: green;
 }
 
+.form.success span {
+    color: green;
+}
+
 .form.error input {
     border-color: red;
 }
 
 .form.error .fa {
-    border-color: red;
+    color: red;
+}
+
+.form.error span {
+    color: red;
 }
