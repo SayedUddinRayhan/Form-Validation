@@ -29,3 +29,26 @@ body {
     margin-left: 10px;
     height: 25px;
 }
+
+.fa {
+    position: absolute;
+    right: 545px;
+    margin-top: -25px;
+
+}
+
+.form.success input {
+    border-color: green;
+}
+
+.form.success .fa {
+    color: green;
+}
+
+.form.error input {
+    border-color: red;
+}
+
+.form.error .fa {
+    border-color: red;
+}
