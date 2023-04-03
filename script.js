@@ -11,6 +11,8 @@ let pass2 = document.querySelector("#pass2");
 function checkdata() {
     let usernameValue = username.value.trim();
     let emailValue = email.value.trim();
+    let pass1Value = pass1.value.trim();
+    let pass2Value = pass2.value.trim();
 
     if (usernameValue == "") {
         error(username, "Username can't be blank");
@@ -27,6 +29,22 @@ function checkdata() {
     }
     else {
         success(email);
+    }
+
+    if (pass1Value == "") {
+        error(pass1, "Password can't be black");
+    } else {
+        success(pass1);
+    }
+
+    if (pass2Value == "") {
+        error(pass2, "Password can't be black");
+    }
+    else if (pass1Value != pass2Value) {
+        error(pass2, "Password does not match");
+    }
+    else {
+        success(pass2)
     }
 }
 
